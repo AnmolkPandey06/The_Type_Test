@@ -1,0 +1,768 @@
+body{
+    /* background-image: url(https://images.unsplash.com/photo-1627645835237-0743e52b991f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);   */
+    background-image: url(https://images.unsplash.com/photo-1616004667892-d348f7349d39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    margin: 0px;
+    margin: 0;
+}
+.content{
+    margin:2%;
+}
+html,body{
+   min-height: 100%;
+}
+.title{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+
+}
+.title h1{
+    font-size:6em;
+    color: aliceblue;
+    font-family:'Italiana';
+    
+}
+.intro{
+ 
+    /* text-align: center; */
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-bottom:2rem;
+   
+}
+.listshain{
+    font-size: 2rem;
+    color: aliceblue;
+    font-family:'Cabin';
+    margin:1rem 1rem;
+}
+.namespan{
+    font-size: 2rem;
+    color: aliceblue;
+    font-family:'Cabin';
+    margin:1rem 1rem;
+    text-align: start;
+}
+.crownking{
+    color: rgb(225, 212, 33);
+}
+.Timespan{
+    font-size: 2rem;
+    color: rgb(240, 243, 245);
+    font-family:'Cabin';
+    margin:1rem 1rem;
+    text-align: start;
+}
+.container2{
+    font-size:2em;
+    color: aliceblue;
+    font-family:'Cabin';
+    margin:0rem 4rem;
+}
+.janpehchan,.hi,.leader{
+    /* display:flex;
+    flex-direction:row;
+    justify-content:center;
+    /* margin-bottom:2rem;
+    align-items: center; */ 
+    text-align:center;
+    margin:4rem;
+}
+label{
+    font-size:2rem;
+    color: aliceblue;
+    font-family:'cabin';
+    text-align:'center';
+    margin-right:1rem
+    
+}
+.leaderboardline{
+    font-size:2em;
+    color: aliceblue;
+    font-family:'Cabin';
+    margin:0rem 4rem;
+    text-align:center;
+
+}
+.backbutton{
+    background-color: rgb(243, 237, 231);
+    font-size: 2rem;
+    font-family:'cabin';
+    padding-left: 2rem;
+    border-radius: 50%;
+    padding-right: 2rem;
+    margin-top:0.5rem;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 10px 5px 10px rgb(229, 174, 22);
+    background-color:rgb(232, 173, 57)
+}
+.leader h1{
+    font-size:4em;
+    color: aliceblue;
+    font-family:'Cabin';
+    margin:3rem 4rem;
+    text-align:center; 
+}
+.leader h2{
+    font-size:2em;
+    color: aliceblue;
+    font-family:'Cabin';
+    margin:3rem 4rem;
+    text-align:center; 
+}
+
+.lists{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin:3rem 0rem;
+}
+.namekeyboard{
+    font-size:1.5rem;
+    font-family:'cabin';
+    justify-content:center;
+    /* margin-bottom: 18rem;   */
+    border-radius:2em 2em; 
+    text-align:center;
+    margin-bottom:2rem;
+
+}
+.submit{
+    background-color: rgb(243, 237, 231);
+    font-size: 2rem;
+    font-family:'cabin';
+    padding-left: 2rem;
+    border-radius: 50%;
+    padding-right: 2rem;
+    margin-top:0.5rem;
+}
+/* .changename,.nammera{
+    display:block;
+    margin:2rem;
+    color: rgb(243, 237, 231);
+    font-size: 2rem;
+    font-family:'cabin';
+}
+.changename{
+    color:black;
+    font-size: 1rem;
+
+} */
+.nammera{
+    margin:2rem;
+    color: rgb(243, 237, 231);
+    font-size: 3rem;
+    font-family:'cabin'; 
+    
+}
+
+.changename{
+    color:black;
+    font-size: 1.8rem;
+    /* border-radius:1em 1em;  */
+    padding-left: 2rem;
+    border-radius: 50%;
+    padding-right: 2rem;
+}
+.warning{
+    font-size: 2.5rem;
+    color: rgb(203, 48, 61);
+    font-family:'cabin';
+    text-align: center;
+}
+.waragree{
+    background-color: rgb(243, 237, 231);
+    font-size: 2rem;
+    font-family:'cabin';
+    padding-left: 2rem;
+    border-radius: 50%;
+    padding-right: 2rem;
+    margin-top:0.5rem;
+}
+.settings{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.question{
+    font-size:2rem;
+    /* word-wrap: break-word; */
+    color: aliceblue;
+    font-family:'Cabin';
+    margin-bottom:1rem;
+}
+.option{
+    font-size:1.5em;
+    color: aliceblue;
+    font-family:'Cabin'; 
+}
+.settingdiv{
+    margin:1rem;
+    display:inline-block;
+}
+.underdevelopment{
+    text-align: center;
+}
+.gifimage img{
+    border-radius: 30%;
+    margin:3rem;
+}
+.gamebox{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin:2rem 4rem;
+    /* position:relative; */
+}
+.pallete{
+    box-sizing: content-box;
+    /* padding-top:18%; */
+    padding-bottom:none;
+    width:50em;
+    height:20em;
+    /* max-width: 50%;
+    max-height:20%; */
+    background-color:rgb(0, 0, 0);
+    border-radius:10%;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom:3rem; */
+
+}
+.palletestart{
+    box-sizing: content-box;
+    /* padding-top:18%; */
+    /* width:45%;
+    height:60%;
+    max-width: 50%;
+    max-height:1rem; */
+    width:50em;
+    height:20em;
+    background-color: antiquewhite;
+    background-image:url("https://i.pinimg.com/originals/97/e9/42/97e942ce7fc4e9d4ea6d844a382f251f.gif");
+    /* background-image:url("https://cdn.dribbble.com/users/2589309/screenshots/6309970/duck-dribble.gif"); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:10%;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom:3rem; */
+
+}
+.palletecorrect{
+    box-sizing: content-box;
+    /* padding-top:18%;
+    width:45%;
+    height:60%;
+    max-width: 50%;
+    max-height:1rem; */
+    width:50em;
+    height:20em;
+    background-color: antiquewhite;
+    /* background-image:url("https://i.pinimg.com/originals/97/e9/42/97e942ce7fc4e9d4ea6d844a382f251f.gif"); */
+    background-image:url("https://thumbs.gfycat.com/QuaintLikelyFlyingfish-max-1mb.gif");
+    /* background-image:url("https://cdn.dribbble.com/users/2589309/screenshots/6309970/duck-dribble.gif"); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:10%;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom:3rem; */
+
+}
+.palletewrong{
+    box-sizing: content-box;
+    /* padding-top:18%;
+    width:45%;
+    height:60%;
+    max-width: 50%;
+    max-height:1rem; */
+    width:50em;
+    height:20em;
+    background-color: antiquewhite;
+    background-image:url("https://www.kindpng.com/picc/m/144-1442095_i-x-wrong-because-sent-x-wrong-sent.png");
+    /* background-image:url("https://cdn.dribbble.com/users/2589309/screenshots/6309970/duck-dribble.gif"); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:10%;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom:3rem; */
+
+}
+.startgamebuttons{
+    /* padding-top:3%; */
+    display:flex;
+    justify-content: center;
+    position:relative; 
+    
+}
+.sg,.leaderbutton{
+    background-color: rgb(243, 237, 231);
+    font-size: 2rem;
+    font-family:'cabin';
+    padding-left: 2rem;
+    border-radius: 50%;
+    padding-right: 2rem;
+    margin-top:0.5rem;
+}
+.rg{
+    background-color:  rgb(243, 237, 231);
+    font-size: 2rem;
+    font-family:'cabin';
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top:0.5rem;
+    border-radius: 50%;
+
+}
+.hidden{
+    display:none;
+}
+.visbility{
+    visibility: hidden;
+}
+.keyboard{
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    font-family:'cabin';
+    justify-content:center;
+    /* margin-bottom: 18rem;   */
+    border-radius:2em 2em; 
+    text-align:center;
+    margin-bottom:2rem;
+    
+
+    /* padding-top: 5rem; */
+    /* text-align: center;  */
+
+   
+    
+}
+.value{
+    color:  rgb(243, 237, 231);
+    font-size: 5em;
+    font-family:'cabin';
+    margin-top:1rem;
+    padding:0;
+
+
+    
+
+    /* padding-top: 5rem; */
+    /* text-align: center;  */
+  
+}
+.aftergame{
+    color:  rgb(243, 237, 231);
+    font-size: 3em;
+    font-family:'cabin';
+    /* margin-bottom: 24rem; */
+    margin-top:2rem;
+    text-align: center;
+    /* margin:0;
+    padding:0; */
+}
+.aftergame span{
+    color:  rgb(243, 237, 231);
+    font-size: 4rem;
+    font-family:'cabin';
+    margin-top: 2em;
+    line-height: 2          ;
+    text-align: center;
+}
+.highscores{
+    display:flex;
+    justify-content: space-evenly;
+}
+h3{
+    color:  rgb(243, 237, 231);
+    font-size: 2em;
+    font-family:'cabin';
+    font-weight: 200;
+    margin:1em 2em;
+    padding:none;
+    display:inline-block;
+}
+.Highscoresthis{
+    color:  rgb(243, 237, 231);
+    font-size: 2.5em;
+    font-family:'cabin';
+    margin:1em 2em;
+    padding:none;
+    text-align:center;
+}
+.time{
+    color:  rgb(243, 237, 231);
+    font-size: 3rem;
+    font-family:'cabin';
+    margin-bottom: 1rem;
+
+}
+.getready{
+    box-sizing: content-box;
+    /* padding-top:18%;
+    width:50%;
+    height:60%;
+    max-width: 50%;
+    max-height:1rem; */
+    width:50em;
+    height:20em;
+    background-image: url("http://csshint.com/wp-content/uploads/2018/04/loader-22.gif");
+    border-radius:10%;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+footer {
+    background-color: rgba(0, 0, 0,0.5);
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    clear: both;
+    position: relative; 
+    z-index: 1; 
+    height: -3em;
+    margin-top: 15em; 
+    
+}
+
+footer p{
+    color:white;
+    font-family: 'Cabin';
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+footer a{
+    margin: 2rem;
+    font-size: 2rem;
+    color:rgb(227, 235, 228);
+    background-color: rgba(0, 0, 0,0.5);
+}
+footer a:hover{
+    cursor: pointer;
+    /* box-shadow: 10px 5px 10px rgb(235, 203, 161); */
+    color:rgb(239, 171, 103);
+    
+}
+@media(max-width:1255px) {
+    h3{
+        font-size: 1.5em;
+    }
+    .container2{
+        font-size:1.7em;
+    }
+    .question{
+        font-size:1.8rem;
+    }
+    .option label{
+        font-size:1.3em; 
+    }
+}
+@media(max-width:1050px) {
+    .Highscoresthis{
+        font-size: 2.3em;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    .container2{
+        font-size:1.5em;
+    }
+}
+@media(max-width:915px) {
+    .warning{
+        font-size: 2.0rem;
+    }
+    .Highscoresthis{
+        font-size: 2.3em;
+    }
+    h3{
+        font-size: 1.2em;
+        color:rgb(243, 237, 231);
+    }
+    .container2{
+        font-size:1.5em;
+    }
+    .getready,.pallete,.palletewrong,.palletecorrect,.palletestart{
+        width:40em;
+        height:16em;
+    }
+    .keyboard{
+        font-size: 2.5em
+    }
+    .lists{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:750px) {
+    .Highscoresthis{
+        font-size: 2.1em;
+    }
+    h3{
+        font-size: 1.1em;
+        color: rgb(243, 237, 231);
+    }
+    .leader h1{
+        font-size:3.6em;
+        margin:3rem 3.5rem;
+        
+    }
+    .leader h2{
+        font-size:1.8em;
+        margin:3rem 3.5rem;
+    }
+    .container2{
+        font-size:1.5em;
+    }
+    .getready,.pallete,.palletewrong,.palletecorrect,.palletestart{
+        width:30em;
+        height:12em;
+    }
+    .leaderboardline{
+        font-size:1.8em;
+    }
+    .keyboard{
+        font-size: 2.3em
+    }
+    .time{
+        font-size: 2.3rem;
+    }
+    .aftergame{
+        font-size: 2.3em;
+    }
+    .aftergame span{
+        font-size: 2.8rem;
+        line-height: 1.4          ;
+    }
+    .value{
+        font-size:3.5rem;
+        margin-top: 1rem;
+    }
+    .keyboard{
+        margin-top:none; 
+        font-size: 1.8em;
+    }
+    .question{
+        font-size:1.5rem;
+        /* word-wrap: break-word; */
+        margin-bottom:1rem;
+    }
+    .settingdiv{
+        margin:0.8;
+    }
+    
+}
+@media(max-width:680px) {
+    .title h1{
+        font-size:5em;
+        
+    }
+    .warning{
+        font-size: 1.5rem;
+    }
+    .Highscoresthis{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.1em;
+        color: rgb(243, 237, 231);
+    }
+    .leader h1{
+        font-size:3.4em;
+        margin:3rem 3rem;
+        
+    }
+    .leader h2{
+        font-size:1.5em;
+        margin:3rem 3rem;
+    }
+    .leaderboardline{
+        font-size:1.5em;
+    }
+    .container2{
+        font-size:1.5em;
+    }
+    .getready,.pallete,.palletewrong,.palletecorrect,.palletestart{
+        width:30em;
+        height:12em;
+    }
+    .keyboard{
+        font-size: 2.3em
+    }
+    .time{
+        font-size: 2.3rem;
+    }
+    .aftergame{
+        font-size: 2.3em;
+    }
+    .aftergame span{
+        font-size: 2.8rem;
+        line-height: 1.4          ;
+    }
+    .value{
+        font-size:3.5rem;
+        margin-top: 1rem;
+    }
+    .keyboard{
+        margin-top:none; 
+        font-size: 1.8em;
+    }
+    .question{
+        font-size:1.5rem;
+        /* word-wrap: break-word; */
+        margin-bottom:1rem;
+    }
+    .option{
+        font-size:1.5em;
+    }
+    .settingdiv{
+        display:block;
+    }
+    .sg{
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-top:1rem;
+    }
+    .rg{
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-top:1rem;
+    
+    }
+    .leaderbutton,.backbutton,.changename,.waragree{
+        font-size: 1.5rem;
+    }
+    footer p{
+        color:white;
+        font-family: 'Cabin';
+        font-size: 1.8rem;
+        font-weight: 100;
+        margin-bottom: 1rem;
+    }
+    
+    footer a{
+        margin: 2rem;
+        font-size: 1.5rem;
+        color:rgb(227, 235, 228);
+        background-color: rgba(0, 0, 0,0.5);
+    }
+
+}
+@media(max-width:580px) {
+    .leaderbutton,.backbutton,.changename,.waragree{
+        font-size: 1.5rem;
+    }
+    .title h1{
+        font-size:5em;
+        
+    }
+    .warning{
+        font-size: 1.4rem;
+    }
+    .Highscoresthis{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.1em;
+    }
+    .leader h1{
+        font-size:3em;
+        margin:3rem 2.5rem;
+        
+    }
+    .leader h2{
+        font-size:1.5em;
+        margin:3rem 2.5rem;
+    }
+    .leaderboardline{
+        font-size:1.4em;
+    }
+    .container2{
+        font-size:1.5em;
+    }
+    .getready,.pallete,.palletewrong,.palletecorrect,.palletestart{
+        width:22em;
+        height:10em;
+    }
+    .time{
+        font-size: 2rem;
+    }
+    .aftergame{
+        font-size: 1.8em;
+    }
+    .aftergame span{
+        font-size: 2rem;
+        line-height: 1.4          ;
+    }
+    .value{
+        font-size:2.8rem;
+        margin-top: 1rem;
+    }
+    .keyboard{
+        margin-top:none; 
+        font-size: 1.5em;
+    }
+    .question{
+        font-size:1.5rem;
+        /* word-wrap: break-word; */
+        margin-bottom:1rem;
+    }
+    .option{
+        font-size:1em;
+    }
+    .sg{
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-top:1rem;
+    }
+    .rg{
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-top:1rem;
+    
+    }
+    footer p{
+        color:white;
+        font-family: 'Cabin';
+        font-size: 1.7rem;
+        font-weight: 100;
+        margin-bottom: 1rem;
+    }
+    
+    footer a{
+        margin: 2rem;
+        font-size: 1.4rem;
+        color:rgb(227, 235, 228);
+        background-color: rgba(0, 0, 0,0.5);
+    }
+
+}
